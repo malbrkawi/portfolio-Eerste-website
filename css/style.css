@@ -7,9 +7,10 @@
 }
 
 body {
-    background-color: #e20e0e;
+    background-color: #e20ed7;
     font-family: 'Open Sans',
         sans-serif;
-    font-size: 4rem;
+    font-size: 2rem;
     letter-spacing: 1vw;
+    padding: 50px;
 }
