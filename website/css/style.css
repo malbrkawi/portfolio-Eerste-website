@@ -1,10 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Bhaijaan+2&family=Bebas+Neue&family=Dosis:wght@200&family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
+/* :root{
+    $eerie-black: #131515ff;
+$jet: #2b2c28ff;
+$persian-green: #339989ff;
+$middle-blue-green: #7de2d1ff;
+$snow: #fffafbff;
+$light-cyan: #dbf9f0ff;
+} */
 
 body {
     background-color: #e20ed7;
