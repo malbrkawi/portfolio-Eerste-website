@@ -59,3 +59,129 @@ h5 {
 h6 {
     font-size: 1.5rem;
 }
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+/* Mohammad A */
+
+/* nav voor de test */
+
+header {
+    width: 100%;
+    height: 8vh;
+    background-color: #2b2c28ff;
+}
+
+/* nav voor de test */
+.pro-main img {
+    width: 20%;
+    display: block;
+}
+
+.pro-lijst h3 {
+    margin-left: 10vw;
+}
+
+.test {
+    margin: auto;
+    text-align: center;
+}
+
+.test a {
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    background-color: wheat;
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.lijst {
+    width: 24.6vw;
+    height: 20vh;
+    display: inline-block;
+    margin-top: 3vh;
+}
+
+.lijst:nth-child(2) {
+    text-align: center;
+}
+
+.lijst:nth-child(3) {
+    text-align: start;
+}
+
+.lijst:nth-child(4) {
+    text-align: end;
+}
+
+.lijst:nth-child(5) {
+    text-align: center;
+}
+
+
+.pro-lijst h1 {
+    display: inline-block;
+}
+
+.pro-lijst input {
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    right: 10vw;
+    border: none;
+    width: 20vw;
+    height: 3vh;
+    border-radius: 1vw;
+}
+
+::placeholder {
+    font-size: 1rem;
+    font-family: open Sans;
+    padding-left: 1vw;
+}
+
+.pro-lijst a {
+    margin: auto;
+}
+
+.pro-btn {
+    display: inline;
+    position: absolute;
+    left: 48%;
+}
+
+.pro-right {
+    margin-top: 1.5vh;
+    border-bottom: 2px solid black;
+}
+
+.pro-right img {
+    margin: 0 50px;
+}
+
+.pro-right p {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.pro-right a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+}
+
+.pro-left {}
+
+/* Mohammad A */
