@@ -13,7 +13,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* :root{
+ :root{
     $eerie-black: #131515ff;
 $jet: #2b2c28ff;
 $persian-green: #339989ff;
@@ -23,7 +23,7 @@ $light-cyan: #dbf9f0ff;
 } */
 
 body {
-    background-image: linear-gradient(to left, #fffafbff, #dbf9f0ff, #339989ff, #7de2d1ff, #fffafbff, #dbf9f0ff);
+    background-image: linear-gradient(to left, #fffafbff, #dbf9f0ff, #339989ff, rgb(2, 200, 250), #fffafbff, #dbf9f0ff);
 }
 
 h1,
