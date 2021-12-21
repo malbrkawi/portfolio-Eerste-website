@@ -23,12 +23,7 @@ $light-cyan: #dbf9f0ff;
 } */
 
 body {
-<<<<<<< Updated upstream
     background-image: linear-gradient(to left, #fffafbff, #dbf9f0ff, #339989ff, rgb(2, 200, 250), #fffafbff, #dbf9f0ff);
-=======
-    background-image: linear-gradient(to left, #fffafbff, #dbf9f0ff, #339989ff, #7de2d1ff, #fffafbff, #dbf9f0ff);
-    max-width: 100%;
->>>>>>> Stashed changes
 }
 
 h1,
@@ -148,11 +143,11 @@ input {
 
 .right-div {
     position: relative;
-    background-image: linear-gradient(to left, #1b1b1b, #00a693);
+    background-color: transparent;
     width: 100%;
     height: 31vh;
-    border-bottom: 0.5px #343434 solid;
-    border-top: 0.5px #343434 solid;
+    border-bottom: 1px grey solid;
+    border-top: 1px grey solid;
 }
 
 .right-div img {
@@ -177,12 +172,12 @@ input {
     text-decoration: none;
     font-size: 1.5rem;
     color: black;
-    margin-left: 43.5%;
+    margin-left: 45%;
 }
 
 .left-div {
     position: relative;
-    background-image: linear-gradient(to right, #1b1b1b, #343434, #8dd9cc, #00a693);
+    background-color: transparent;
     width: 100%;
     height: 31vh;
 }
@@ -210,7 +205,7 @@ input {
     text-decoration: none;
     font-size: 1.5rem;
     color: black;
-    margin-left: 22%;
+    margin-left: 23%;
 }
 
 .pro-btn {
@@ -228,14 +223,5 @@ input {
 .pro-btn a:hover {
     cursor: pointer;
 }
-
-.right-div a,
-.left-div a {
-    display: inline-block;
-    padding: 15px 50px;
-    border-radius: 20px;
-    background-color: #8dd9cc;
-}
-
 
 /* Mohammad A */
