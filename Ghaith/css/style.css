@@ -7,10 +7,93 @@
 }
 
 body {
-    background-color: #e20ed7;
+    background-color: #2b2c28;
     font-family: 'Open Sans',
         sans-serif;
+}
+#cv{
+    background-color: #339989;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 10rem;
+}
+#bar{
+    background-color: #131515;
+    height: 100px;
+    margin-top: 100px;
+}
+#m{
+    position: relative;
+    background-color: #131515;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 400px;
+    height: 450px;
+    padding-left: 30px;
+    float: left;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: aquamarine;
     font-size: 2rem;
-    letter-spacing: 1vw;
-    padding: 50px;
+    font-weight: bold;
+}
+#anas{
+    position: relative;
+    background-color: #339989;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 400px;
+    height: 450px;
+    padding-left: 30px;
+    float: left;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: aquamarine;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#ghaith{
+    position: relative;
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 400px;
+    height: 450px;
+    padding-left: 30px;
+    float: left;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: rgb(9, 14, 12);
+    font-size: 2rem;
+    font-weight: bold;
+    
+}#mohammadt{
+    position: relative;
+    background-color: rgb(182, 255, 231);
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 400px;
+    height: 450px;
+    padding-left: 30px;
+    float: left;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: bold;
 }
