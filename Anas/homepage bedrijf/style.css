@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(97, 211, 219);
+    ;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 7em;
+
+}
+
+.naam {
+    color: rgb(97, 211, 219);
+    width: 15em;
+    height: 5em;
+    padding-top: 2.5em;
+    padding-left: 2em;
+    text-shadow: 2px 1px white;
+    font-family: 'Dosis',sans-serif;
+}
+
+.logo {
+
+    width: 15em;
+    height: 15em;
+    float: right;
+    right: 50%;
+    position: fixed;
+    margin-top: -7.5em;
+
+}
+
+.logo img {
+    width: 14em;
+    height: 15em;
+    margin-top: -4.5em;
+    margin-left: 10em;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.socials{
+    width: 20em;
+    float: right;
+    height: 7em;
+    margin-top: -7.5em; 
+    display: flex;
+}
+.socials .insta{
+    background-color: rgb(97, 211, 219);
+    width: 4em;
+    height: 4em;
+    margin-left: 3em;
+    margin-top: 1.6em;
+    border-radius: 20px;
+    transition: 0.5s all ease;
+}
+.socials .insta:hover{
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    cursor: pointer;
+}
+.socials .twitter{
+    background-color: rgb(97, 211, 219);
+    width: 4em;
+    height: 4em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    border-radius: 20px;
+    transition: 0.5s all ease;
+}
+.socials .twitter:hover{
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    cursor: pointer;
+}
+
+.socials .facebook{
+    background-color: rgb(97, 211, 219);
+    border-radius: 20px;
+    height: 4em;
+    width: 4em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    transition: 0.5s all ease;
+}
+.socials .facebook:hover{
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    height: 6em;
+    
+}
+.navbar ul li {
+  display: inline-flex;
+  margin: 2em;
+  font-size: 26px;
+  margin-top: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  transition:0.5s all ease-in-out;
+  background-color: black;
+  color: white;
+}
+.navbar ul li:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.welkom {
+  margin-top: 5em;
+  width: 100%;
+  height: 25em;
+  
+}
+.welkom h1{
+    font-size: 70px;
+    padding-left: 30%;
+    font-family: 'Baloo Bhaijaan 2',cursive;
+    transition: 0.5s all ease;
+}
+.welkom h1:hover{
+    letter-spacing: 20px ;
+       
+}
+.welkom p{
+    font-size: 25px;
+    width: 50em;
+    padding-left: 15em;
+    padding-top: 0.5em;
+    font-family: 'Baloo Bhaijaan 2',
+    cursive;
+}
+footer .images{
+    width: 60%;
+    height: 17em;
+    margin-left: 20em;
+    display: flex;
+    overflow: auto;
+    overflow-y: hidden;
+    margin-top: -4em;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+footer .images article{
+    flex: 0 0 354px;
+    width: 11em;
+    height: 14em;
+    background-color: rgb(84, 160, 231);
+    margin: 1em;
+    scroll-snap-align: start;
+    display: inline-flex;
+}
+
+footer .navigation{
+    width: 100%;
+    height: 3em;
+    padding-top: 1.5em;
+    position: absolute;
+    margin-top: -11em;
+}
+footer .navigation .right{
+    float: right;
+    background-color: black;
+    font-size: 30px;
+    margin-top: -0.5em;
+    margin-right: 12em;
+    text-decoration: none;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-right: 15px;
+    height: 1.5em;
+    width: 0.5em;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2',
+    cursive;
+}
+footer .navigation .left{
+    float: left;
+     background-color: black;
+     font-size: 30px;
+     margin-left: 7em;
+     margin-top: -0.5em;
+     text-decoration: none;
+     border-radius: 50px;
+     padding-left: 20px;
+     padding-top: 1px;
+     padding-right: 15px;
+     height: 1.5em;
+     width: 0.5em;
+     color: white;
+     font-family: 'Baloo Bhaijaan 2',
+     cursive;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
