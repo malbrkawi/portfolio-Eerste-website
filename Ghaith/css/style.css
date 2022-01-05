@@ -11,7 +11,8 @@ body {
     font-family: 'Open Sans',
         sans-serif;
 }
-#cv{
+
+#cv {
     background-color: #339989;
     width: 600px;
     height: 200px;
@@ -24,12 +25,14 @@ body {
     font-family: 'Dosis', sans-serif;
     font-size: 10rem;
 }
-#bar{
+
+#bar {
     background-color: #131515;
     height: 100px;
     margin-top: 100px;
 }
-#m{
+
+#m {
     position: relative;
     background-color: #131515;
     margin-top: 100px;
@@ -46,7 +49,8 @@ body {
     font-size: 2rem;
     font-weight: bold;
 }
-#anas{
+
+#anas {
     position: relative;
     background-color: #339989;
     margin-top: 100px;
@@ -63,7 +67,8 @@ body {
     font-size: 2rem;
     font-weight: bold;
 }
-#ghaith{
+
+#ghaith {
     position: relative;
     background-color: aquamarine;
     margin-top: 100px;
@@ -79,8 +84,10 @@ body {
     color: rgb(9, 14, 12);
     font-size: 2rem;
     font-weight: bold;
-    
-}#mohammadt{
+
+}
+
+#mohammadt {
     position: relative;
     background-color: rgb(182, 255, 231);
     margin-top: 100px;
